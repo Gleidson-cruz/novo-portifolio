@@ -33,13 +33,14 @@ body {
 }
 
 .icon {
-    width: 80px;
+    width: 100px;
+    height: auto;
 }
 
 .text-appresentation {
     font-family: 'Fira code', monospace;
     color: #9c9c9c;
-    font-size: 1em;
+    font-size: 2rem;
 }
 
 
@@ -54,7 +55,8 @@ main {
 
 .icon-foot {
     filter: invert(1);
-    width: 47px;
+    width: 50px;
+    height: auto;
 }
 
 .butom-2 {
