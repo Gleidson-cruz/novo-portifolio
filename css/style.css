@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/futura-display');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #2D2D2D, #000);
+    overflow-x: hidden;
+}
+
+
+#text-appresentation1, #text-appresentation2 {
+    font-family: 'Futura display', monospace;
+    font-size: 10.7vw;
+}
+
+
+#text-appresentation1 {
+    color: #fff;
+    
+}
+
+#text-appresentation1 {
+    color: #585858;
+}
+
+
+.navbar-toggler-icon {
+    filter: invert(1)
+}
+
+.icon {
+    width: 100px;
+}
+
+.text-appresentation {
+    font-family: 'Fira code', monospace;
+    color: #9c9c9c;
+    font-size: 2em;
+}
+
+
+main {
+    min-height: 80vh; /* Define uma altura mínima para centralizar sem espaçar demais */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem; /* Ajuste o espaço entre os elementos */
+}
+
+.icon-foot {
+    filter: invert(1);
+    width: 50px;
+}
+
+.butom-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5083EE;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    padding: 0.8vw;
+    font-family: 'Fira code', monospace;
+    font-size: 1vw;
+}
+
+.butom-2:hover {
+    background-color: #456dc4;
+    color: #fff;
+}
+
+.butom-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: solid 0.1vw #5083EE;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    padding: 0.8vw;
+    font-family: 'Fira code', monospace;
+    font-size: 1vw;
+}
+
+.butom-1:hover {
+    background-color: #5083EE;
+    color: #fff;
+}
+
+.nav-link:hover {
+    text-decoration: underline 0.2vw;
+}
