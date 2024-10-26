@@ -15,7 +15,7 @@ body {
 #text-appresentation1,
 #text-appresentation2 {
   font-family: "Futura display", monospace;
-  font-size: 10.7vw !important;
+  font-size: 10.7vw;
 }
 
 #text-appresentation1 {
@@ -31,28 +31,28 @@ body {
 }
 
 .icon {
-  width: 100px !important;
+  width: 6.25rem;
   height: auto;
 }
 
 .text-appresentation {
   font-family: "Fira code", monospace;
   color: #9c9c9c;
-  font-size: 2rem !important;
+  font-size: 2rem ;
 }
 
 main {
-  min-height: 80vh; /* Define uma altura mínima para centralizar sem espaçar demais */
+  min-height: 100vh; /* Define uma altura mínima para centralizar sem espaçar demais */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem !important; /* Ajuste o espaço entre os elementos */
+  gap: 1rem; /* Ajuste o espaço entre os elementos */
 }
 
 .icon-foot {
   filter: invert(1);
-  width: 50px !important;
+  width: 3,125rem;
   height: auto;
 }
 
