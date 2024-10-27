@@ -95,8 +95,16 @@ main {
   color: #fff;
 }
 
+.nav-link {
+  font-family: "Fira code", monospace;
+}
+
 .nav-link:hover {
   text-decoration: underline 0.2vw;
+}
+
+.dropdown-item {
+  font-size: 1vw;
 }
 
 .dropdown-item:hover {

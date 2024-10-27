@@ -8,6 +8,10 @@
         position: relative;
         left: 4.026vw;
     }
+
+    .nav-link {
+        font-size: 1vw;
+      }
 }
 
 @media (max-width: 767px) {
@@ -52,6 +56,10 @@
       .bt-links {
         padding-bottom: 3rem !important;
       }
+
+      .nav-link {
+        font-size: 2vw;
+      }
 }
 
 @media (max-width: 585px) {
@@ -88,6 +96,10 @@
 
       .bt-links {
         padding-bottom: 3rem !important;
+      }
+      
+      .nav-link {
+        font-size: 3vw;
       }
 }
 
