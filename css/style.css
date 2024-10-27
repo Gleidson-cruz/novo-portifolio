@@ -31,7 +31,7 @@ body {
 }
 
 .icon {
-  width: 70px;
+  width: 5.321vw;
 }
 
 .text-apresentacao {
@@ -57,14 +57,18 @@ main {
 
 .icon-foot {
   filter: invert(1);
-  width: 30px;
+  width: 2.196vw;
+}
+
+.nav-link {
+  font-size: 1vw;
 }
 
 .butom-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5083ee;
+  background-color: #456dc4;
   color: #fff;
   text-decoration: none;
   border-radius: 0.5vw;
@@ -74,7 +78,7 @@ main {
 }
 
 .butom-2:hover {
-  background-color: #456dc4;
+  background-color: #5083ee;
   color: #fff;
 }
 
@@ -83,7 +87,7 @@ main {
   justify-content: center;
   align-items: center;
   color: #fff;
-  border: solid 0.1vw #5083ee;
+  border: solid 0.1vw #456dc4;
   text-decoration: none;
   border-radius: 0.5vw;
   padding: 0.8vw;
@@ -92,10 +96,25 @@ main {
 }
 
 .butom-1:hover {
-  background-color: #5083ee;
+  background-color: #456dc4;
   color: #fff;
 }
 
 .nav-link:hover {
   text-decoration: underline 0.2vw;
+}
+
+.dropdown-item:hover {
+  background-color: #2d2d2d18;
+  text-decoration: underline 0.2vw;
+}
+
+
+
+.icon-foot:hover {
+  transform: scale(1.2);
+}
+
+.bt-links {
+  padding-bottom: 5rem !important;
 }
