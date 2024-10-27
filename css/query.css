@@ -1,3 +1,15 @@
+
+@media (min-width: 768px) {
+
+    .text-apresentacao p {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        position: relative;
+        left: 4.026vw;
+    }
+}
+
 @media (max-width: 767px) {
 
     #text-appresentation1, #text-appresentation2 {
@@ -6,8 +18,14 @@
 
     .text-apresentacao {
         font-size: 1.7vw;
+    }
+
+    .text-apresentacao p {
+        justify-content: center;
+        align-items: center;
+        display: block;
         position: relative;
-        left: -39px;
+        left: 0vw;
     }
 
     .icon {

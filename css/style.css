@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background: linear-gradient(to right, #2d2d2d, #000);
   overflow-x: hidden;
@@ -38,12 +39,6 @@ body {
   font-family: "Fira code", monospace;
   color: #9c9c9c;
   font-size: 1.464vw;
-}
-
-.text-apresentacao p {
-    display: block;
-    position: relative;
-    left: 4.026vw;
 }
 
 main {
@@ -109,7 +104,10 @@ main {
   text-decoration: underline 0.2vw;
 }
 
-
+.footer {
+  position: fixed;
+  bottom: 0;
+}
 
 .icon-foot:hover {
   transform: scale(1.2);
