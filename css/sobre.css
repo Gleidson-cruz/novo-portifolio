@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #2d2d2d, #000);
+    overflow-x: hidden;
+}
+
+main {
+    min-height: 80vh; /* Define uma altura mínima para centralizar sem espaçar demais */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem !important; /* Ajuste o espaço entre os elementos */
+  }
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.nav-link {
+    font-family: "Fira code", monospace;
+    font-size: 1.3vw;
+}
+  
+.nav-link:hover {
+    text-decoration: underline 0.2vw;
+}
+  
+.dropdown-item {
+    font-size: 1.2vw;
+}
+  
+.dropdown-item:hover {
+    background-color: #2d2d2d18;
+    text-decoration: underline 0.2vw;
+}

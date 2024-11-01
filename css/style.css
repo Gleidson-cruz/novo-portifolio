@@ -37,7 +37,7 @@ body {
 
 .text-apresentacao {
   font-family: "Fira code", monospace;
-  color: #9c9c9c;
+  color: #fff;
   font-size: 1.464vw;
 }
 
@@ -55,9 +55,7 @@ main {
   width: 2.196vw;
 }
 
-.nav-link {
-  font-size: 1vw;
-}
+
 
 .butom-2 {
   display: flex;
@@ -97,6 +95,7 @@ main {
 
 .nav-link {
   font-family: "Fira code", monospace;
+  font-size: 1.2vw;
 }
 
 .nav-link:hover {
@@ -104,7 +103,7 @@ main {
 }
 
 .dropdown-item {
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .dropdown-item:hover {
