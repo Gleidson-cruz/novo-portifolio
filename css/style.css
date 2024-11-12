@@ -7,6 +7,13 @@
   box-sizing: border-box;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Para garantir que fique acima de outros elementos */
+}
 
 body {
   background: linear-gradient(to right, #2d2d2d, #000);
@@ -17,6 +24,7 @@ body {
 #text-appresentation2 {
   font-family: "Futura display", monospace;
   font-size: 8.7vw;
+  z-index: 1;
 }
 
 #text-appresentation1 {
@@ -103,7 +111,7 @@ main {
 }
 
 .dropdown-item {
-  font-size: 1.2vw;
+  z-index: 2;
 }
 
 .dropdown-item:hover {
