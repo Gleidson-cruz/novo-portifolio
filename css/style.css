@@ -16,7 +16,7 @@ header {
 }
 
 body {
-  background: linear-gradient(to right, #2d2d2d, #000);
+  background-color: #000;
   overflow-x: hidden;
 }
 
