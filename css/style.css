@@ -61,7 +61,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #456dc4;
+  background-color: rgb(55, 89, 160);
   color: #fff;
   text-decoration: none;
   border-radius: 0.5vw;
@@ -121,5 +121,5 @@ main {
 }
 
 .bt-links {
-  padding-bottom: 5rem !important;
+  padding-bottom: 5rem;
 }
