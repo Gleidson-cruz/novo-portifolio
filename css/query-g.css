@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+    .nav-link {
+      font-size: 2vw;
+    }
+}
+
+@media (max-width: 585px) {
+    .nav-link {
+      font-size: 3vw;
+    }
+}

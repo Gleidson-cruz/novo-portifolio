@@ -1,0 +1,86 @@
+body {
+    background-color: #000 ;
+    overflow-x: hidden;
+}
+
+main {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem !important; 
+  }
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.nav-link {
+    font-family: "Fira code", monospace;
+}
+  
+.nav-link:hover {
+    transform: scale(1.1);
+}
+  
+.dropdown-item {
+    color: #ffffff;
+}
+  
+.dropdown-item:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    background-color: #ffffff5b;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    filter: grayscale(0);
+    transition: 1s ease;
+}
+
+.card-img-top {
+    border-radius: 0.5vw;
+    filter: grayscale(100)
+}
+
+.card-title {
+    font-family: "Fira code", monospace;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.card-text {
+    font-family: "Fira code", monospace;
+    color: #fff
+}
+
+.btn {
+    background-color: #2c5fce;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #003cbe;
+    transition: 1s ease;
+}
+
+.btn-g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 0.5vw;
+    background-color: #000000;
+    border: none;
+}
+
+.btn-g:hover {
+    background-color: #000000c5;
+    transition: 1s ease;
+}

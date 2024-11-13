@@ -93,22 +93,18 @@ main {
 
 .nav-link {
   font-family: "Fira code", monospace;
-  font-size: 1.2vw;
+  font-size: 0.90rem !important;
 }
 
 .nav-link:hover {
-  text-decoration: underline 0.2vw;
+  transform: scale(1.1);
 }
 
 .dropdown-item {
-  border-radius: 0.5vw;
-  background-color: #ffffff18;
-  color: #000;
+  color: #fff;
 }
 
 .dropdown-item:hover {
-  border-radius: 0.5vw;
-  background-color: #ffffff4f;
   transform: scale(1.2);
 }
 

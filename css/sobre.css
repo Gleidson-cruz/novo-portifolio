@@ -18,28 +18,19 @@ main {
 
 .nav-link {
     font-family: "Fira code", monospace;
-    font-size: 1.3vw;
 }
   
 .nav-link:hover {
-    text-decoration: underline 0.2vw;
+    transform: scale(1.1);
 }
 
-.nav-item {
-    font-size: 1.3vw;
-}
-  
+
 .dropdown-item {
-    font-size: 1.3vw;
-}
-
-.dropdown-menu {
-    font-size: 1.3vw;
+    color: #fff;
 }
 
 .dropdown-item:hover {
-    background-color: #2d2d2d18;
-    text-decoration: underline 0.2vw;
+    transform: scale(1.2);
 }
 
 
@@ -64,7 +55,7 @@ main {
 
 .icon-tec-html, .icon-tec-css, .icon-tec-js, .icon-tec-bt {
     font-family: "Fira code", monospace;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 17px;
     color: #fff;
 }
@@ -76,7 +67,7 @@ main {
     background-color: #0c61ff;
 }
 .icon-tec-js{
-    background-color: #ffff00;
+    background-color: #e6e600;
 }
 .icon-tec-bt{
     background-color: #6f2cf5;
