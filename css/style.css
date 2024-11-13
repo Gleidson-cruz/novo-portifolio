@@ -7,14 +7,6 @@
   box-sizing: border-box;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000; /* Para garantir que fique acima de outros elementos */
-}
-
 body {
   background-color: #000;
   overflow-x: hidden;
@@ -50,20 +42,18 @@ body {
 }
 
 main {
-  min-height: 80vh; /* Define uma altura mínima para centralizar sem espaçar demais */
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem !important; /* Ajuste o espaço entre os elementos */
+  gap: 1rem !important;
 }
 
 .icon-foot {
   filter: invert(1);
   width: 2.196vw;
 }
-
-
 
 .butom-2 {
   display: flex;
@@ -111,12 +101,15 @@ main {
 }
 
 .dropdown-item {
-  z-index: 2;
+  border-radius: 0.5vw;
+  background-color: #ffffff18;
+  color: #000;
 }
 
 .dropdown-item:hover {
-  background-color: #2d2d2d18;
-  text-decoration: underline 0.2vw;
+  border-radius: 0.5vw;
+  background-color: #ffffff4f;
+  transform: scale(1.2);
 }
 
 .footer {

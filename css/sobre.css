@@ -55,7 +55,7 @@ main {
 }
 .icon {
     filter: invert(1);
-    width: 2.196vw;
+    width: 30px;
 }
 
 .icon:hover {
