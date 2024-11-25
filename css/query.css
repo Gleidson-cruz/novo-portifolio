@@ -1,20 +1,15 @@
-@media (min-width: 768px) {
-
-}
-
-@media (max-width: 767px) {
+@media (min-width: 767px) and (max-width: 1100px) {
   #text-appresentation1,
   #text-appresentation2 {
-    font-size: 10.7vw;
+    font-size: 14.7vw;
   }
 
   .text-apresentacao {
-    font-size: 1.7vw;
+    font-size: 3vw;
   }
 
-
   .icon {
-    width: 7vw;
+    width: 12vw;
   }
 
   .butom-1,
@@ -23,113 +18,64 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: solid 0.1vw #5083ee;
+    border: solid 0.4vw #f4511e;
     text-decoration: none;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
     font-family: "Fira code", monospace;
+    font-size: 3vw;
+    width: 24vw;
+  }
+
+  .icon-foot {
+    width: 8.196vw;
+  }
+
+  .bt-links {
+    padding-bottom: 3rem !important;
+  }
+
+  .nav-link {
     font-size: 2vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 766px) {
+  #text-appresentation1,
+  #text-appresentation2 {
+    font-size: 17.7vw;
+  }
+
+  .text-apresentacao {
+    font-size: 3.7vw;
+  }
+
+  .icon {
     width: 15vw;
   }
 
-  .icon-foot {
-    width: 5.196vw;
-  }
-
-  .bt-links {
-    padding-bottom: 3rem !important;
-  }
-
-  .nav-link {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 585px) {
-  #text-appresentation1,
-  #text-appresentation2 {
-    font-size: 15.7vw;
-  }
-
-  .text-apresentacao {
-    font-size: 2.464vw;
-  }
-
-  .icon {
-    width: 10.321vw;
-  }
-
   .butom-1,
   .butom-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    border: solid 0.1vw #5083ee;
+    border: solid 0.5vw #f4511e;
     text-decoration: none;
-    border-radius: 0.5vw;
-    padding: 0.8vw;
+    border-radius: 2vw;
+    padding: 1vw;
     font-family: "Fira code", monospace;
-    font-size: 3vw;
-    width: 24vw;
+    font-size: 4vw;
+    width: 35vw;
   }
 
   .icon-foot {
-    width: 5.196vw;
+    width: 10vw;
   }
 
   .bt-links {
     padding-bottom: 3rem !important;
   }
 
-  .nav-link {
-    font-size: 3vw;
-  }
-}
-
-@media (max-width: 576px) {
-  .butom-1,
-  .butom-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border: solid 0.1vw #f4511e;
-    text-decoration: none;
-    border-radius: 0.5vw;
-    padding: 0.8vw;
-    font-family: "Fira code", monospace;
-    font-size: 3vw;
-    width: 24vw;
-  }
-
-  .icon-foot {
-    width: 5.196vw;
-  }
-
-  .bt-links {
-    padding-bottom: 3rem !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .nav-link {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 585px) {
-  .nav-link {
-    font-size: 3vw;
-  }
-}
-
-@media (max-width: 767px) {
-  .nav-link {
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 585px) {
   .nav-link {
     font-size: 3vw;
   }
