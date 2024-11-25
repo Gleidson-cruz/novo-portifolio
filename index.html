@@ -16,7 +16,7 @@
   </head>
   <body>
     <header
-      class="container-fluid p-2 mb-md-0 mb-5 pb-md-0 pb-3 mb-xl-5 text-center"
+      class="container-fluid p-0 mb-md-0 mb-5 pb-md-0 pb-0 mb-xl-0 text-center"
     >
       <nav class="navbar navbar-expand-lg bg-transparent">
         <div class="container-fluid col-md-11">
@@ -102,13 +102,13 @@
         <div id="content" class="row d-flex">
           <h1
             id="text-appresentation1"
-            class="col-12 col-md-7 text-nowrap text-white text-center m-0 p-0"
+            class="col-12 col-lg-7 text-nowrap text-white text-center m-0 p-0"
           >
             Desenvolvedor
           </h1>
           <h1
             id="text-appresentation2"
-            class="col-12 col-md-5 text-nowrap text-center m-0 p-0.1"
+            class="col-12 col-lg-5 text-nowrap text-center m-0 p-0.1"
           >
             Front-end
           </h1>
@@ -116,15 +116,47 @@
       </section>
 
       <section id="tec-apresetation">
-        <div class="content-text-tec row justify-content-around">
-          <div class="text-apresentacao col-12 col-md-7 text-center pe-0 me-0">
-            <p>
+        <div class="content-text-tec row justify-content-around d-none d-lg-flex">
+          <div class="text-apresentacao col-lg-7 text-center pe-0 me-0">
+            <p class="text-apresentacao-desktop">
               Ouvi falarem que o esforço vence o talento. <br />
               Gostei muito desse argumento!
             </p>
           </div>
-          <div
-            class="img-tec col-12 col-md-5 justify-content-start text-center text-md-start"
+        <div
+            class="img-tec col-lg-5 justify-content-start text-center text-lg-start"
+          >
+            <img
+              src="assets/img/html-5.svg"
+              alt="HTML5"
+              class="icon img-fluid"
+            />
+            <img src="assets/img/css3.svg" alt="CSS3" class="icon img-fluid" />
+            <img
+              src="assets/img/javascript.svg"
+              alt="JAVASCRIPT"
+              class="icon img-fluid"
+            />
+            <img
+              src="assets/img/bootstrap.svg"
+              alt="BOOTSTRAP"
+              class="icon img-fluid"
+            />
+            <img src="assets/img/git.svg" alt="GIT" class="icon img-fluid" />
+          </div>
+        </div>
+      </section>
+
+      <section id="tec-apresetation-mobile">
+        <div class="content-text-tec row justify-content-center align-items-center d-flex d-lg-none">
+          <div class="text-apresentacao col-12 text-center p-0 m-0">
+            <p class="text-tec-mobile">
+              Ouvi falarem que o esforço vence o talento. <br />
+              Gostei muito desse argumento!
+            </p>
+          </div>
+        <div
+            class="img-tec col-12 justify-content-center align-items-center text-center text-lg-start"
           >
             <img
               src="assets/img/html-5.svg"

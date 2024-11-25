@@ -23,8 +23,8 @@ body {
   color: #fff;
 }
 
-#text-appresentation1 {
-  color: #585858;
+#text-appresentation2 {
+  color: #f4511e;
 }
 
 .navbar-toggler-icon {
@@ -39,6 +39,11 @@ body {
   font-family: "Fira code", monospace;
   color: #fff;
   font-size: 1.464vw;
+}
+
+.text-apresentacao-desktop {
+  position: relative;
+  left: 3vw
 }
 
 main {
@@ -59,7 +64,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(55, 89, 160);
+  background-color: #f4511e;
   color: #fff;
   text-decoration: none;
   border-radius: 0.5vw;
@@ -69,8 +74,8 @@ main {
 }
 
 .butom-2:hover {
-  background-color: #5083ee;
-  color: #fff;
+  background-color: #ac2800;
+  transition: 0.5s ease;
 }
 
 .butom-1 {
@@ -78,7 +83,7 @@ main {
   justify-content: center;
   align-items: center;
   color: #fff;
-  border: solid 0.1vw #456dc4;
+  border: solid 0.1vw #f4511e;
   text-decoration: none;
   border-radius: 0.5vw;
   padding: 0.8vw;
@@ -87,7 +92,7 @@ main {
 }
 
 .butom-1:hover {
-  background-color: #456dc4;
+  background-color: #f4511e;
   color: #fff;
 }
 
